@@ -4,6 +4,8 @@ window.Vue = require('vue').default;
 
 import VueRouter from 'vue-router'
 import Vuex from 'vuex'
+/*import axios from 'axios'
+import VueAxios from 'vue-axios'*/
 import VueAxios from './plugins/axios'
 import store from './store'
 
@@ -39,7 +41,7 @@ Vue.component('blog-post', require('./components/BlogPostComponent.vue').default
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-export const app = new Vue({
+const app = new Vue({
     router,
     store
 }).$mount('#app')

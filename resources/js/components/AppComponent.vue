@@ -7,6 +7,7 @@
         <div class="mt-10 space-y-12"> <!--  lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-8 -->
             <blog-post></blog-post>
         </div>
+        <create-post></create-post>
       </div>
     </div>
 </template>

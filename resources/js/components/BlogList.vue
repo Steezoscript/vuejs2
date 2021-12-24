@@ -32,7 +32,7 @@ export default {
             </thead>
             <tbody>
             <tr v-for="post in posts">
-                <td><router-link to="/blogpost/1">{{post.title}}</router-link></td>
+                <td>{{post.title}}</td>
                 <td>{{post.content}}</td>
                 <td>
                     <button class="btn btn-danger" @click="deletePost(post)">Delete</button>
@@ -41,4 +41,5 @@ export default {
             </tbody>
         </table>
     </div>
+
 </template>
